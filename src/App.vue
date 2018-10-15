@@ -3,8 +3,12 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      
     </div>
     <router-view/>
+    <router-view name="tel"/>
+    <router-view name="email"/>
+
   </div>
 </template>
 
