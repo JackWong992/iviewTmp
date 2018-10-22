@@ -6,6 +6,11 @@ export default  [
     component: Home
   },
   {
+    path: '/cccc',
+    name: 'cccc',
+    component: ()=>import('@/views/cccc.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
@@ -17,6 +22,7 @@ export default  [
     path: '/argu/:name',
     component: ()=> import( '@/views/argu.vue' )  
   },
+  
   {
     path: '/parent',
     name: 'parent',
